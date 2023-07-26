@@ -7,9 +7,74 @@
     <!-- tailwind/daisyui link -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font-awsam cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- lato-font -link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        *{
+        font-family: 'Lato', sans-serif;
+        }
+    </style>
 </head>
 <body>
       <header>
+        <!-- nav-bar -->
+              <nav >
+                <div class="navbar w-full lg:bg-[#F85559] lg:w-5/6  lg:mx-auto rounded-full lg:mt-12">
+                    <div class="navbar-start">
+
+
+                        <div class="navbar-center absolute lg:static hidden lg:flex">
+                            <ul class="menu menu-horizontal px-1 text-white">
+                              <li><a>Home</a></li>
+                              <li><a>About Us</a></li>
+                              <li><a>Shop</a></li>
+                              <li><a>All Fruits</a></li>
+                            </ul>
+                          </div>
+                      </div>
+                       
+                       
+
+                                <div class="flex mt-5 lg:mt-0 lg:text-white ">
+                                     <img src="./images/logo.png" alt="">
+                                     <h2 class=" text-xl font-semibold">Fruit Burst</h2>
+                                </div>
+
+                               
+                      
+                    
+                    
+                    <div class=" pl-24">
+                      <input class=" h-8 p-4 rounded-full hidden lg:block" type="search" placeholder="Search here" name="" id="">
+                      <button class="relative right-7 hidden lg:block"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+
+
+
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruits</a></li>
+                        </ul>
+                      </div>
+                      
+
+
+                    
+                  </div>
+
+                
+
+              </nav>
 
       </header>
       <main></main>
